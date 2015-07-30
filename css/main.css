@@ -50,9 +50,8 @@ p {
 /* Numbered List CSS */
 
 #list {
-   margin-left: 40%;
-   width: 50%;
-   height: 50%;
+   width: 235px;
+   margin: auto;
 }
 #tracks {
    counter-reset: my-badass-counter;
