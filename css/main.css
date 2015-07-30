@@ -1,0 +1,28 @@
+#tracks {
+         counter-reset: my-badass-counter;
+      }
+#tracks dt {
+         position: relative;
+         font: bold 16px Georgia;
+         padding: 4px;
+      }
+#tracks dt:before {
+         content: counter(my-badass-counter);
+         counter-increment: my-badass-counter;
+         position: absolute;
+         left: 0;
+         top: 0;
+         font: bold 50px/1 Sans-Serif;
+      }
+#tracks dd {
+         margin: 0;
+      }
+#tracks dd+dd {
+   margin: 0 0 20px 0;
+}
+#tracks dd+dt {
+   margin: 20px 0 0 0;
+}
+#tracks dt, #tracks dd {
+         padding-left: 50px;
+      }
