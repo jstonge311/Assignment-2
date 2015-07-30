@@ -1,28 +1,66 @@
+h1 {
+   font-family: 'Roboto' sans-serif;
+   font-weight: 1000;
+   font-size: 5rem;
+   text-align: center;
+   margin: 20px 0 0 0;
+}
+h2 {
+   font-family: 'Roboto' sans-serif;
+   font-weight: 1000;
+   font-size: 2.5rem;
+   margin-bottom: 20px;
+   text-align: center;
+}
+h3 {
+   font-family: 'Roboto' sans-serif;
+   font-weight: 1000;
+   font-size: 2.5rem;
+   text-align: center;
+   margin: 20px;
+}
+
+/* Numbered List CSS */
+
+div {
+   display: inline-block;
+   height: 100%;
+}
 #tracks {
-         counter-reset: my-badass-counter;
-      }
+   counter-reset: my-badass-counter;
+}
 #tracks dt {
-         position: relative;
-         font: bold 16px Georgia;
-         padding: 4px;
-      }
+   position: relative;
+   font: bold 16px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 120;
+   padding: 4px;
+}
 #tracks dt:before {
-         content: counter(my-badass-counter);
-         counter-increment: my-badass-counter;
-         position: absolute;
-         left: 0;
-         top: 0;
-         font: bold 50px/1 Sans-Serif;
-      }
+   content: counter(my-badass-counter);
+   counter-increment: my-badass-counter;
+   position: absolute;
+   left: 0;
+   top: 0;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   font-size: 3.5rem;
+}
 #tracks dd {
-         margin: 0;
-      }
+   margin: 0;
+   font-family: 'Roboto', sans-serif;
+   font-size: .8rem;
+   font-weight: 100;
+}
 #tracks dd+dd {
    margin: 0 0 20px 0;
+   font-family: 'Roboto', sans-serif;
+   font-size: .8rem;
+   font-weight: 100;
 }
 #tracks dd+dt {
    margin: 20px 0 0 0;
 }
 #tracks dt, #tracks dd {
-         padding-left: 50px;
-      }
+   padding-left: 50px;
+}
