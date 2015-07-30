@@ -1,9 +1,22 @@
+header{
+   background-color: #bcded7;
+}
+body {
+   background-color: #bcded7;
+}
+.attribution {
+   text-align: center;
+   font-weight: 100;
+   margin-bottom: 30px;
+   margin-top: 20px;
+}
 h1 {
    font-family: 'Roboto' sans-serif;
    font-weight: 1000;
    font-size: 5rem;
    text-align: center;
-   margin: 20px 0 0 0;
+   margin: 30px 0 0 0;
+   color: #5c5c5c;
 }
 h2 {
    font-family: 'Roboto' sans-serif;
@@ -11,6 +24,7 @@ h2 {
    font-size: 2.5rem;
    margin-bottom: 20px;
    text-align: center;
+   color: #5c5c5c;
 }
 h3 {
    font-family: 'Roboto' sans-serif;
@@ -18,16 +32,31 @@ h3 {
    font-size: 2.5rem;
    text-align: center;
    margin: 20px;
+   color: #5c5c5c;
+}
+#quote {
+   text-align: center;
+   color: #5c5c5c;
+   width: 75%;
+   margin-left: 11%;
+   font-weight:100;
+   margin-top: 30px;
+   font-size: 2em;
+}
+p {
+   font-family: 'Roboto' sans-serif;
 }
 
 /* Numbered List CSS */
 
-div {
-   display: inline-block;
-   height: 100%;
+#list {
+   margin-left: 40%;
+   width: 50%;
+   height: 50%;
 }
 #tracks {
    counter-reset: my-badass-counter;
+   color: #5c5c5c;
 }
 #tracks dt {
    position: relative;
