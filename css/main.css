@@ -1,3 +1,7 @@
+body {
+   background-color: #bcded7;
+}
+
 /* Header Styles */
 
 header {
@@ -14,7 +18,7 @@ header {
    background-color: rgba(82,81,98,.85);
    color: #FFFFFF;
    height: 99.5%;
-   width: "100%"
+   width: 100%;
 }
 h1 {
    font-family: 'Roboto', sans-serif;
@@ -37,11 +41,8 @@ h1 {
    height: 100%;
 }
 
-/* Body Styles */
+/* END Header Styles */
 
-body {
-   background-color: #bcded7;
-}
 .main {
    font-family: 'Roboto' sans-serif;
    width: 85%;
@@ -102,6 +103,7 @@ h2 {
    background-color: rgba(242,249,245,.7);
    margin: auto auto 50px auto;
    padding: 10px;
+   position: relative;
 }
 p {
    font-family: 'Roboto' sans-serif;
@@ -112,9 +114,9 @@ p {
    text-align: justify;
 }
 .attribution {
-   text-align: center;
-   font-weight: 500;
-   font-style: italic;
+   text-align: right;
+   font-weight: 100;
+   font-size: 2em;
    margin-bottom: 10px;
    margin-top: 20px;
 }
@@ -130,6 +132,8 @@ ol {
 i {
    font-style: italic;
 }
+
 footer p {
    text-align: center;
 }
+
