@@ -1,3 +1,4 @@
+/* Header Styles */
 
 header {
    position: relative;
@@ -15,41 +16,12 @@ header {
    height: 99.5%;
    width: "100%"
 }
-#container img {
-   width: 100%;
-   height: 100%;
-}
-body {
-   background-color: #bcded7;
-}
-.attribution {
-   text-align: center;
-   font-weight: 100;
-   margin-bottom: 30px;
-   margin-top: 20px;
-}
 h1 {
    font-family: 'Roboto' sans-serif;
-   font-weight: 400;
+   font-weight: 500;
    font-size: 5rem;
    text-align: center;
    margin: 70px 0 0 0;
-}
-h2 {
-   font-family: 'Roboto' sans-serif;
-   font-weight: 400;
-   font-size: 2.5rem;
-   margin: 30px 0 20px 0;
-   text-align: center;
-   color: #5c5c5c;
-}
-h3 {
-   font-family: 'Roboto' sans-serif;
-   font-weight: 400;
-   font-size: 2.5rem;
-   text-align: center;
-   margin: 20px;
-   color: #5c5c5c;
 }
 #quote {
    text-align: center;
@@ -59,26 +31,37 @@ h3 {
    margin-top: 30px;
    font-size: 2rem;
 }
-p {
+#container img {
+   width: 100%;
+   height: 100%;
+}
+
+/* Body Styles */
+
+body {
+   background-color: #bcded7;
+}
+.body {
    font-family: 'Roboto' sans-serif;
-   font-size: 1rem;
+   width: 85%;
+   margin: 30px 60px;
+   color: #5c5c5c;
+}
+h2 {
+   font-weight: 500;
+   font-size: 3rem;
+   margin-bottom: 20px;
 }
 
-/* Numbered List CSS */
+/* ALINA Track Listing Styles */
 
-#list {
-   width: 235px;
-   margin: auto;
-}
 #tracks {
    counter-reset: my-badass-counter;
-   color: #5c5c5c;
 }
 #tracks dt {
    position: relative;
-   font: bold 16px;
-   font-family: 'Roboto', sans-serif;
-   font-weight: 120;
+   font-weight: 400;
+   font-size: 1rem;
    padding: 4px;
 }
 #tracks dt:before {
@@ -87,25 +70,51 @@ p {
    position: absolute;
    left: 0;
    top: 0;
-   font-family: 'Roboto', sans-serif;
-   font-weight: 300;
+   font-weight: 100;
    font-size: 3.5rem;
 }
 #tracks dd {
    margin: 0;
-   font-family: 'Roboto', sans-serif;
    font-size: .8rem;
    font-weight: 100;
 }
-#tracks dd+dd {
-   margin: 0 0 20px 0;
-   font-family: 'Roboto', sans-serif;
-   font-size: .8rem;
-   font-weight: 100;
+#tracks dd+dd+dt {
+   margin: 20px 0 0 0;
+   font-size: 1rem;
+   font-weight: 400;
 }
 #tracks dd+dt {
-   margin: 20px 0 0 0;
+   margin: 35px 0 0 0;
+   font-size: 1rem;
+   font-weight: 400;
 }
 #tracks dt, #tracks dd {
    padding-left: 50px;
+}
+
+/* END ALINA Track Listing Styles */
+
+.reviewbox {
+   float: center;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(242,249,245,.7);
+   margin: auto;
+}
+p {
+   font-family: 'Roboto' sans-serif;
+   font-size: 1rem;
+}
+.review {
+   font-weight: 300;
+   line-height: 1.6rem;
+   margin: 20px 20px 10px 20px;
+   text-align: justify;
+}
+.attribution {
+   text-align: center;
+   font-weight: 500;
+   font-style: italic;
+   margin-bottom: 10px;
+   margin-top: 20px;
 }
