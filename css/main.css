@@ -44,7 +44,7 @@ h1 {
 /* END Header Styles */
 
 .main {
-   font-family: 'Roboto' sans-serif;
+   font-family: 'Roboto', sans-serif;
    width: 85%;
    margin: 30px 60px;
    color: #5c5c5c;
@@ -63,7 +63,7 @@ h2 {
 #tracks dt {
    position: relative;
    font-weight: 400;
-   font-size: 1rem;
+   font-size: 1.2rem;
    padding: 4px;
 }
 #tracks dt:before {
@@ -73,21 +73,21 @@ h2 {
    left: 0;
    top: 0;
    font-weight: 100;
-   font-size: 3.5rem;
+   font-size: 4rem;
 }
 #tracks dd {
    margin: 0;
-   font-size: .8rem;
+   font-size: 1.2rem;
    font-weight: 100;
 }
 #tracks dd+dd+dt {
    margin: 20px 0 0 0;
-   font-size: 1rem;
+   font-size: 1.2rem;
    font-weight: 400;
 }
 #tracks dd+dt {
    margin: 35px 0 0 0;
-   font-size: 1rem;
+   font-size: 1.2rem;
    font-weight: 400;
 }
 #tracks dt, #tracks dd {
@@ -106,7 +106,7 @@ h2 {
    position: relative;
 }
 p {
-   font-family: 'Roboto' sans-serif;
+   font-family: 'Roboto', sans-serif;
    font-size: 1rem;
    font-weight: 300;
    line-height: 1.6rem;
@@ -116,7 +116,7 @@ p {
 .attribution {
    text-align: right;
    font-weight: 100;
-   font-size: 2em;
+   font-size: 2rem;
    margin-bottom: 10px;
    margin-top: 20px;
 }
