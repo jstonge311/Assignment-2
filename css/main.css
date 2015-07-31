@@ -17,7 +17,7 @@ header {
    width: "100%"
 }
 h1 {
-   font-family: 'Roboto' sans-serif;
+   font-family: 'Roboto', sans-serif;
    font-weight: 500;
    font-size: 5rem;
    text-align: center;
@@ -30,6 +30,7 @@ h1 {
    font-weight: 100;
    margin-top: 30px;
    font-size: 2rem;
+   line-height: 1.2em;
 }
 #container img {
    width: 100%;
@@ -41,7 +42,7 @@ h1 {
 body {
    background-color: #bcded7;
 }
-.body {
+.main {
    font-family: 'Roboto' sans-serif;
    width: 85%;
    margin: 30px 60px;
@@ -128,4 +129,7 @@ ol {
 }
 i {
    font-style: italic;
+}
+footer p {
+   text-align: center;
 }
