@@ -105,9 +105,6 @@ h2 {
 p {
    font-family: 'Roboto' sans-serif;
    font-size: 1rem;
-   margin-top: 20px;
-}
-.review {
    font-weight: 300;
    line-height: 1.6rem;
    margin: 20px 20px 10px 20px;
@@ -124,6 +121,10 @@ ol {
    padding-left: 40px;
    counter-reset: decimal;
    list-style: decimal;
+   font-size: 1rem;
+   font-weight: 300;
+   line-height: 1.6rem;
+   margin: 0 0 0 20px;
 }
 i {
    font-style: italic;
