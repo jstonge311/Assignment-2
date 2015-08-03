@@ -15,7 +15,7 @@ header {
 #tag {
    float: left;
    position: absolute;
-   background-color: rgba(82,81,98,.85);
+   background-color: rgba(91,99,111,.85);
    color: #FFFFFF;
    height: 99.5%;
    width: 100%;
@@ -54,6 +54,9 @@ h2 {
    font-weight: 500;
    font-size: 3rem;
    margin-bottom: 20px;
+}
+h2:last-of-type {
+      padding-top: 30px;
 }
 
 /* ALINA Track Listing Styles */
@@ -138,3 +141,125 @@ footer p {
    text-align: center;
 }
 
+@media all and (max-width: 1050px) {
+h1 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   font-size: 4.5rem;
+   text-align: center;
+   margin: 50px 0 0 0;
+   padding-top: 30px;
+}
+
+#quote {
+   text-align: center;
+   width: 75%;
+   margin-left: 11%;
+   font-weight: 100;
+   margin-top: 30px;
+   font-size: 1.5rem;
+   line-height: 1.2em;
+}
+}
+
+@media all and (max-width: 795px) {
+h1 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   font-size: 4rem;
+   text-align: center;
+   margin: 40px 0 0 0;
+   padding-top: 30px;
+}
+
+#quote {
+   text-align: center;
+   width: 75%;
+   margin-left: 11%;
+   font-weight: 100;
+   margin-top: 30px;
+   font-size: 1.3rem;
+   line-height: 1.2em;
+}
+}
+
+@media all and (max-width: 688px) {
+h1 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   font-size: 3.5rem;
+   text-align: center;
+   margin: 40px 0 0 0;
+   padding-top: 20px;
+}
+
+#quote {
+   text-align: center;
+   width: 75%;
+   margin-left: 11%;
+   font-weight: 100;
+   margin-top: 20px;
+   font-size: 1.2rem;
+   line-height: 1.2em;
+}
+}
+@media all and (max-width: 630px) {
+h1 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   font-size: 3rem;
+   text-align: center;
+   margin: 30px 0 0 0;
+   padding-top: 20px;
+}
+
+#quote {
+   text-align: center;
+   width: 75%;
+   margin-left: 11%;
+   font-weight: 100;
+   margin-top: 20px;
+   font-size: 1.1rem;
+   line-height: 1.2em;
+}
+}
+@media all and (max-width: 580px) {
+h1 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   font-size: 2.5rem;
+   text-align: center;
+   margin: 10px 0 0 0;
+   padding-top: 10px;
+}
+
+#quote {
+   text-align: center;
+   width: 75%;
+   margin-left: 11%;
+   font-weight: 100;
+   margin-top: 10px;
+   font-size: 1rem;
+   line-height: 1.2em;
+}
+}
+@media all and (max-width: 410px) {
+h1 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   font-size: 2rem;
+   text-align: center;
+   margin: 10px 0 0 0;
+   padding-top: 10px;
+}
+
+#quote {
+   text-align: center;
+   width: 75%;
+   margin-left: 11%;
+   font-weight: 100;
+   margin-top: 10px;
+   font-size: .9rem;
+   line-height: 1.2em;
+}
+}
