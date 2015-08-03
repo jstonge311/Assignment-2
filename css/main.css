@@ -139,7 +139,15 @@ i {
 
 footer p {
    text-align: center;
+   color: #5c5c5c;
 }
+
+a:link{
+   text-decoration: none;
+   color: #5c5c5c;
+}
+
+/* MEDIA QUERIES */
 
 @media all and (max-width: 1050px) {
 h1 {
