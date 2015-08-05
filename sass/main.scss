@@ -1,0 +1,283 @@
+
+$color_reviewbox: rgba(242,249,245,.7);
+$color_bg: #bcded7;
+$white: #ffffff;
+$color_overlay: rgba(91,99,111,.85);
+$color_text: #5c5c5c;
+
+$font-stack: Roboto, sans-serif;
+
+@import "css/base.css";
+
+body {
+   background-color: $color_bg;
+   margin: auto;
+   width: 100%;
+   height: 100%;
+}
+header {
+   padding-bottom: 5px;
+}
+#container {
+   position: relative;
+   img {
+      width: 100%;
+      height: 100%;
+   }
+}
+#tag {
+   float: left;
+   position: absolute;
+   background-color: $color_overlay;
+   color: $white;
+   height: 100%;
+   width: 100%;
+}
+h1 {
+   font-family: $font-stack;
+   font-weight: 500;
+   font-size: 5rem;
+   text-align: center;
+   margin: 70px 0 0;
+   padding-top: 2%;
+}
+#quote {
+   text-align: center;
+   width: 75%;
+   margin-left: 11%;
+   font-weight: 100;
+   margin-top: 30px;
+   font-size: 2rem;
+   line-height: 1.2em;
+}
+.main {
+   font-family: $font-stack;
+   width: 85%;
+   margin: 30px 60px;
+   color: $color_text;
+}
+h2 {
+   font-weight: 500;
+   font-size: 3rem;
+   margin-bottom: 20px;
+   &:last-of-type {
+      padding-top: 30px;
+   }
+}
+#tracks {
+   counter-reset: my-badass-counter;
+   dt {
+      position: relative;
+      font-weight: 400;
+      font-size: 1.2rem;
+      padding: 4px;
+      padding-left: 50px;
+      &:before {
+         content: counter(my-badass-counter);
+         counter-increment: my-badass-counter;
+         position: absolute;
+         left: 0;
+         top: 0;
+         font-weight: 100;
+         font-size: 4rem;
+      }
+   }
+   dd {
+      margin: 0;
+      font-size: 1.2rem;
+      font-weight: 100;
+      padding-left: 50px;
+   }
+   dd+dd+dt {
+      margin: 20px 0 0;
+      font-size: 1.2rem;
+      font-weight: 400;
+   }
+   dd+dt {
+      margin: 35px 0 0;
+      font-size: 1.2rem;
+      font-weight: 400;
+   }
+}
+.reviewbox {
+   width: 100%;
+   height: 100%;
+   background-color: $color_reviewbox;
+   margin: auto auto 20px auto;
+   padding: 10px;
+}
+p {
+   font-family: $font-stack;
+   font-size: 1rem;
+   font-weight: 300;
+   line-height: 1.6rem;
+   margin: 20px 20px 10px 20px;
+   text-align: justify;
+}
+.attribution {
+   text-align: right;
+   font-weight: 100;
+   font-size: 2rem;
+   margin-bottom: 10px;
+   margin-top: 20px;
+}
+ol {
+   padding-left: 40px;
+   counter-reset: decimal;
+   list-style: decimal;
+   font-size: 1rem;
+   font-weight: 300;
+   line-height: 1.6rem;
+   margin: 0 0 0 20px;
+}
+i {
+   font-style: italic;
+}
+@media all and(min-width: 1100px) {
+   .reviewbox {
+      width: 1000px;
+      background-color: $color_reviewbox;
+      margin: 30px 0 20px;
+      padding: 10px;
+   }
+}
+@media all and(max-width: 1050px) {
+   h1 {
+      font-family: $font-stack;
+      font-weight: 500;
+      font-size: 4.5rem;
+      text-align: center;
+      padding-top: 3%;
+   }
+   #quote {
+      text-align: center;
+      width: 75%;
+      margin-left: 11%;
+      font-weight: 100;
+      margin-top: 30px;
+      font-size: 1.5rem;
+      line-height: 1.2em;
+   }
+}
+@media all and(max-width: 795px) {
+   h1 {
+      font-family: $font-stack;
+      font-weight: 500;
+      font-size: 4rem;
+      text-align: center;
+      margin: 40px 0 0;
+      padding-top: 3%;
+   }
+   #quote {
+      text-align: center;
+      width: 75%;
+      margin-left: 11%;
+      font-weight: 100;
+      margin-top: 30px;
+      font-size: 1.3rem;
+      line-height: 1.2em;
+   }
+}
+@media all and(max-width: 688px) {
+   h1 {
+      font-family: $font-stack;
+      font-weight: 500;
+      font-size: 3.5rem;
+      text-align: center;
+      margin: 10px 0 0;
+      padding-top: 3%;
+   }
+   #quote {
+      text-align: center;
+      width: 75%;
+      margin-left: 11%;
+      font-weight: 100;
+      margin-top: 20px;
+      font-size: 1.2rem;
+      line-height: 1.2em;
+   }
+}
+@media all and(max-width: 630px) {
+   h1 {
+      font-family: $font-stack;
+      font-weight: 500;
+      font-size: 3rem;
+      text-align: center;
+      margin: 30px 0 0;
+      padding-top: 3%;
+   }
+   #quote {
+      text-align: center;
+      width: 75%;
+      margin-left: 11%;
+      font-weight: 100;
+      margin-top: 20px;
+      font-size: 1.1rem;
+      line-height: 1.2em;
+   }
+}
+@media all and(max-width: 580px) {
+   h1 {
+      font-family: $font-stack;
+      font-weight: 500;
+      font-size: 2.5rem;
+      text-align: center;
+      margin: 10px 0 0;
+      padding-top: 3%;
+   }
+   #quote {
+      text-align: center;
+      width: 75%;
+      margin-left: 11%;
+      font-weight: 100;
+      margin-top: 10px;
+      font-size: 1rem;
+      line-height: 1.2em;
+   }
+}
+@media all and(max-width: 500px) {
+   h1 {
+      font-family: $font-stack;
+      font-weight: 500;
+      font-size: 2.2rem;
+      text-align: center;
+      margin: 10px 0 0;
+      padding-top: 3%;
+   }
+   #quote {
+      text-align: center;
+      width: 75%;
+      margin-left: 11%;
+      font-weight: 100;
+      margin-top: 10px;
+      font-size: 1rem;
+      line-height: 1.2em;
+   }
+}
+@media all and(max-width: 410px) {
+   h1 {
+      font-family: $font-stack;
+      font-weight: 500;
+      font-size: 2rem;
+      text-align: center;
+      margin: 10px 0 0;
+      padding-top: 3%;
+   }
+   #quote {
+      text-align: center;
+      width: 75%;
+      margin-left: 11%;
+      font-weight: 100;
+      margin-top: 10px;
+      font-size: .9rem;
+      line-height: 1.2em;
+   }
+}
+footer p {
+   text-align: center;
+   color: $color_text;
+}
+a:link {
+   text-decoration: none;
+   color: $color_text;
+}
